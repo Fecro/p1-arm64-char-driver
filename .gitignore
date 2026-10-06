@@ -1,0 +1,31 @@
+# Kernel module build artifacts (Kbuild)
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.a
+*.s
+*.o.cmd
+*.ko.cmd
+*.mod.cmd
+*.order
+*.symvers
+.*.cmd
+modules.order
+Module.symvers
+.tmp_versions/
+.cache.mk
+.p1_char_driver*
+
+# User space build artifacts
+user/test_app
+
+# Development tools/editor files
+compile_commands.json
+.clangd/
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

@@ -1,0 +1,2 @@
+# Defines the final module name: p1_char_driver.ko
+obj-m += p1_char_driver.o
